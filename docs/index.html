@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Spinning Image</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      animation: spin 2s linear infinite;
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <p>im so silly?</p>
+  <img src="assets/image.png" id="spinning-image">
+  <script>
+    const image = document.getElementById('spinning-image');
+
+    let speed = 2;
+
+    function increaseSpeed() {
+      speed += 0.5;
+      image.style.animationDuration = `${10 / speed}s`; //SPIN!
+    }
+
+    setInterval(increaseSpeed, 10000);
+  </script>
+</body>
+</html>
