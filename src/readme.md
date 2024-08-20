@@ -1,4 +1,4 @@
-## This is a Python script that creates a Remote Access Trojan (RAT) server on a Windows system. A RAT is a type of malware that allows an attacker to remotely control a victim's computer.
+## This is an example of what you can do with this. In this example i have made something like a remote bomb, when pinged it will execute malitiouse code to destroy an operating systems infistructure and data (is still being editied)
 
 Here's a breakdown of what the script does:
 
