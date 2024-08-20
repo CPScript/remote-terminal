@@ -1,1 +1,1 @@
-other versions made in other langauges
+other versions made in other languages
