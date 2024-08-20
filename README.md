@@ -1,8 +1,13 @@
+### note:
+> This doesn't have to be used for malicious intent, you can use it like a remote terminal. just be careful!
+
+---
+
 # What is this?
 
 This repo consists of essentially a Remote Access Trojan (RAT) template. It allows an attacker to remotely access and control a victim's computer(kinda), execute commands, upload files and execute them, and potentially steal sensitive data or deploy malware. THIS IS MALWARE!
 
----
+# How to use & info:
 
 ## rat-v1.py
 Description - This is a simple easily editable python script that uses remote execution using termux to execute commands on a windows desktop!
@@ -64,6 +69,3 @@ On your phone using Termux, you can use `nc` (Netcat) to interact with the scrip
 # oth/
 
 * other versions of the script(s) made in diffrent languages.
-
-### note:
-> This doesn't have to be used for malitiouse intent, you can use it like a remote terminal. just be careful!
