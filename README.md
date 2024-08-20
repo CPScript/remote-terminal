@@ -64,3 +64,6 @@ On your phone using Termux, you can use `nc` (Netcat) to interact with the scrip
 # oth/
 
 * other versions of the script(s) made in diffrent languages.
+
+### note:
+> This doesn't have to be used for malitiouse intent, you can use it like a remote terminal. just be careful!
