@@ -4,7 +4,7 @@ This repo consists of essentially a Remote Access Trojan (RAT) template. It allo
 
 ---
 
-## rat-v1
+## rat-v1.py
 Description - This is a simple easily editable python script that uses remote execution using termux to execute commands on a windows desktop!
 
 ### How to use
@@ -23,8 +23,8 @@ On your phone using Termux, you can use `nc` (Netcat) to interact with the scrip
 ---
 
 
-## rat-v2
-Description - This is the same as `bomb-v1` but you can now upload a file from your phone to your pc
+## rat-v2.py
+Description - This is the same as `rat-v1.py` but you can now upload and execute a file from your phone to your pc.
 
 ### How to use
 On your phone using Termux, you can use `nc` (Netcat) to interact with the script:
