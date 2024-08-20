@@ -1,6 +1,6 @@
 # What is this?
 
-This repo consists of essentially a Remote Access Trojan (RAT) server template. It allows an attacker to remotely access and control a victim's computer(kinda), execute commands, upload files and execute them, and potentially steal sensitive data or deploy malware. THIS IS MALWARE!
+This repo consists of essentially a Remote Access Trojan (RAT) template. It allows an attacker to remotely access and control a victim's computer(kinda), execute commands, upload files and execute them, and potentially steal sensitive data or deploy malware. THIS IS MALWARE!
 
 ---
 
