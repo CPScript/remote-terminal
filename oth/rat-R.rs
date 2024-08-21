@@ -1,4 +1,4 @@
-// this current verson is just a starting point with no error handeling, and basic gui and overwrite function!
+// this current verson is just a starting point with no error handling, and basic gui and overwrite function!
 
 // I don't realy know much about rust but here :>
 use tokio::net::{TcpListener, TcpStream};
