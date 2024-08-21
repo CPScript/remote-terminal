@@ -1,11 +1,11 @@
 ### note:
-> This doesn't have to be used for malicious intent, you can use it like a remote terminal. just be careful!
+> This doesn't have to be used for malicious intent, you can use it like a remote terminal. just be careful! Please use this responsibly, i am not responsible for your actions!
 
 ---
 
 # What is this?
 
-This repo consists of essentially a Remote Access Trojan (RAT) template. It allows an attacker to remotely access and control a victim's computer(kinda), execute commands, upload files and execute them, and potentially steal sensitive data or deploy malware. THIS IS MALWARE!
+This repo consists of essentially a Remote Access Tool (RAT). It allows a user to remotely access and control another users or their own computer(kinda), execute commands, upload files and execute them, and potentially steal sensitive data or deploy malware. THIS IS NOT MALWARE, but has an example in it lol!
 
 # How to use & info:
 
@@ -62,7 +62,7 @@ On your phone using Termux, you can use `nc` (Netcat) to interact with the scrip
 # src/bomb.py
 (this is an example on how you can make a "remote bomb" out of this script lol)
 
-* this will destroy a pc(not literaly) if executed properly
+* this will destroy a pc(not literaly) if executed properly, please be responsible!
 
 ---
 
