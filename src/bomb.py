@@ -28,7 +28,6 @@ from sys import exit
 #     print("this message is not required")
 #     subprocess.run(['pip', 'install', 'pywin32'])
 #     import pywin32
-#
 
 def placeholder1(): # for extra destructive functions if any are wanted to be added
   print(" ")
