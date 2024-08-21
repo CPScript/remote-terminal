@@ -8,9 +8,6 @@
 //It also uses the system function to execute files, which can be a security risk if not used carefully. 
 //Additionally, this code does not handle errors as robustly as it could, and it does not implement any authentication or authorization mechanisms.
 
-
-Note that this code uses the POSIX socket API and the pthread library for threading. It also uses the system function to execute files, which can be a security risk if not used carefully. Additionally, this code does not handle errors as robustly as it could, and it does not implement any authentication or authorization mechanisms.
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
