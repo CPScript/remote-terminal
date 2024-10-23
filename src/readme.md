@@ -1,3 +1,30 @@
+## 
+
+* Create a text file named commands.txt with the PowerShell commands you want to execute. Each command should be on a new line. For example:
+```
+Get-Process
+Get-Service
+Get-EventLog -LogName Application -Newest 10
+```
+
+* If you haven't already, install dialog in Termux:
+```
+pkg install dialog
+```
+
+* If you haven't already, you need to install netcat to send and receive data over the network:
+```
+pkg install netcat
+```
+
+* Make sure the script is executable:
+```
+chmod +x send_commands.sh
+```
+
+* 
+
+
 ## This is an example of what you can do with this. In this example i have made something like a remote bomb, when pinged it will execute malitiouse code to destroy an operating systems infistructure and data (is still being editied)
 
 Here's a breakdown of what the script does:
