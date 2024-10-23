@@ -1,12 +1,5 @@
 ## 
 
-* Create a text file named commands.txt with the PowerShell commands you want to execute. Each command should be on a new line. For example:
-```
-Get-Process
-Get-Service
-Get-EventLog -LogName Application -Newest 10
-```
-
 * If you haven't already, install dialog in Termux:
 ```
 pkg install dialog
@@ -19,7 +12,7 @@ pkg install netcat
 
 * Make sure the script is executable:
 ```
-chmod +x send_commands.sh
+chmod +x command_list.sh
 ```
 
 * 
