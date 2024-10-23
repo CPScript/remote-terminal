@@ -1,0 +1,65 @@
+# Command list
+
+# 1. Getting Started
+Get-Command                # Lists all cmdlets, functions, and scripts available
+Get-Help                   # Displays help about PowerShell commands
+Get-Version                # Displays the version of PowerShell
+
+# 2. File and Folder Management
+Get-ChildItem              # Gets files and folders in a directory (alias: ls, dir)
+Copy-Item                  # Copies an item from one location to another
+Move-Item                  # Moves an item from one location to another
+Remove-Item                # Deletes files and folders
+New-Item                   # Creates a new item (file or folder)
+
+# 3. Process Management
+Get-Process                # Retrieves information about running processes
+Stop-Process               # Stops a running process
+Start-Process              # Starts a process (application)
+
+# 4. Service Management
+Get-Service                # Retrieves the status of services
+Start-Service              # Starts a service
+Stop-Service               # Stops a service
+Restart-Service            # Restarts a service
+
+# 5. System Information
+Get-EventLog               # Retrieves entries from event logs
+Get-ComputerInfo           # Gets detailed information about the computer
+Get-WmiObject              # Retrieves management information from local and remote computers
+
+# 6. Network Management
+Test-Connection            # Pings a network resource (alias: ping)
+Get-NetAdapter             # Gets the network adapter properties
+Get-NetIPAddress           # Gets IP address configuration
+
+# 7. User and Group Management
+Get-LocalUser              # Retrieves local user accounts
+New-LocalUser              # Creates a new local user account
+Remove-LocalUser           # Deletes a local user account
+Get-LocalGroup             # Retrieves local groups
+Add-LocalGroupMember       # Adds a user to a local group
+
+# 8. Windows Management Instrumentation (WMI)
+Get-WmiObject              # Queries WMI for information
+Set-WmiInstance            # Modifies WMI objects
+
+# 9. Security
+Get-Acl                    # Gets the access control list (ACL) for a file or folder
+Set-Acl                    # Sets the ACL for a file or folder
+
+# 10. Scripting and Automation
+Invoke-Command             # Runs commands on local or remote computers
+Start-Sleep                # Pauses execution for a specified time
+ForEach-Object             # Performs an operation on each item in a collection
+
+# 11. Remote Management
+Enter-PSSession            # Starts an interactive session with a remote computer
+Invoke-Command             # Executes commands on remote computers
+
+# Useful Cmdlet Aliases
+# ls  → Get-ChildItem
+# cat → Get-Content
+# cp  → Copy-Item
+# mv  → Move-Item
+# rm  → Remove-Item
